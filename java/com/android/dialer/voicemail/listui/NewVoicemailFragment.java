@@ -20,7 +20,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.VoicemailContract.Status;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.Loader;
@@ -31,6 +30,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import androidx.annotation.Nullable;
+
 import com.android.dialer.calllog.CallLogComponent;
 import com.android.dialer.calllog.RefreshAnnotatedCallLogReceiver;
 import com.android.dialer.common.LogUtil;
@@ -40,8 +42,10 @@ import com.android.dialer.voicemail.listui.error.VoicemailStatus;
 import com.android.dialer.voicemailstatus.VoicemailStatusQuery;
 import com.android.dialer.widget.EmptyContentView;
 import com.android.voicemail.VoicemailComponent;
+
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.ListenableFuture;
+
 import java.util.ArrayList;
 import java.util.List;
 

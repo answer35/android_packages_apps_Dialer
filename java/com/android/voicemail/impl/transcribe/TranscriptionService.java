@@ -25,10 +25,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import android.support.annotation.MainThread;
-import android.support.annotation.VisibleForTesting;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;
+
+import androidx.annotation.MainThread;
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.constants.ScheduledJobIds;
@@ -38,6 +40,7 @@ import com.android.voicemail.CarrierConfigKeys;
 import com.android.voicemail.VoicemailClient;
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.impl.transcribe.grpc.TranscriptionClientFactory;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

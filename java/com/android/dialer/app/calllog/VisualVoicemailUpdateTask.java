@@ -19,11 +19,13 @@ package com.android.dialer.app.calllog;
 import android.content.Context;
 import android.net.Uri;
 import android.service.notification.StatusBarNotification;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 import android.util.ArrayMap;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
+
 import com.android.dialer.app.R;
 import com.android.dialer.app.calllog.CallLogNotificationsQueryHelper.NewCall;
 import com.android.dialer.blocking.FilteredNumberAsyncQueryHandler;
@@ -38,6 +40,7 @@ import com.android.dialer.notification.DialerNotificationManager;
 import com.android.dialer.phonenumbercache.ContactInfo;
 import com.android.dialer.spam.SpamComponent;
 import com.android.dialer.telecom.TelecomUtil;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

@@ -18,11 +18,14 @@ package com.android.dialer.oem;
 import android.content.Context;
 import android.content.res.Resources;
 import android.provider.CallLog.Calls;
-import android.support.annotation.VisibleForTesting;
 import android.telephony.TelephonyManager;
+
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.common.PackageUtils;
 import com.android.dialer.configprovider.ConfigProviderComponent;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 

@@ -22,8 +22,6 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.DimenRes;
-import android.support.annotation.NonNull;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -33,6 +31,10 @@ import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.DimenRes;
+import androidx.annotation.NonNull;
+
 import com.android.dialer.common.Assert;
 
 /**

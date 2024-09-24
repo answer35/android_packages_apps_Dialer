@@ -15,11 +15,14 @@
  */
 package com.android.voicemail.impl.transcribe.grpc;
 
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.Assert;
+
 import com.google.internal.communications.voicemailtranscription.v1.GetTranscriptResponse;
 import com.google.internal.communications.voicemailtranscription.v1.TranscriptionStatus;
+
 import io.grpc.Status;
 
 /** Container for response and status objects for an asynchronous get-transcript request */

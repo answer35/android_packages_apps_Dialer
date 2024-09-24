@@ -21,9 +21,11 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.provider.CallLog;
 import android.provider.CallLog.Calls;
-import android.support.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;
+
+import androidx.annotation.Nullable;
+
 import com.android.contacts.common.ContactsUtils.UserType;
 import com.android.contacts.common.util.ContactDisplayUtils;
 import com.android.dialer.contacts.displaypreference.ContactDisplayPreferences.DisplayOrder;

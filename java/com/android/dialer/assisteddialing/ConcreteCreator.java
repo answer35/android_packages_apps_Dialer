@@ -19,9 +19,11 @@ package com.android.dialer.assisteddialing;
 import android.content.Context;
 import android.os.Build;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
 import android.support.v4.os.UserManagerCompat;
 import android.telephony.TelephonyManager;
+
+import androidx.annotation.NonNull;
+
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.configprovider.ConfigProvider;
 import com.android.dialer.configprovider.ConfigProviderComponent;

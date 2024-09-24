@@ -18,13 +18,16 @@ package com.android.voicemail.impl;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.VisibleForTesting;
-import android.support.annotation.WorkerThread;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
+
+import androidx.annotation.VisibleForTesting;
+import androidx.annotation.WorkerThread;
+
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.impl.settings.VisualVoicemailSettingsUtil;
+
 import java.lang.reflect.Method;
 
 /** Handles migration of data from the visual voicemail client in telephony before O. */

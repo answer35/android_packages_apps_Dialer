@@ -16,11 +16,14 @@
 
 package com.android.dialer.assisteddialing;
 
-import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.util.ArraySet;
+
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.configprovider.ConfigProvider;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

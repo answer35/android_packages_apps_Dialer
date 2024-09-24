@@ -20,8 +20,10 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.net.Network;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.WorkerThread;
 import android.telecom.PhoneAccountHandle;
+
+import androidx.annotation.WorkerThread;
+
 import com.android.dialer.common.Assert;
 import com.android.voicemail.PinChanger;
 import com.android.voicemail.impl.imap.ImapHelper;

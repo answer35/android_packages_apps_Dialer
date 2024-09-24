@@ -18,14 +18,17 @@ package com.android.voicemail.impl.mail.store.imap;
 
 import android.annotation.TargetApi;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
 import android.util.ArrayMap;
 import android.util.Base64;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
+
 import com.android.voicemail.impl.VvmLog;
 import com.android.voicemail.impl.mail.MailTransport;
 import com.android.voicemail.impl.mail.MessagingException;
 import com.android.voicemail.impl.mail.store.ImapStore;
+
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

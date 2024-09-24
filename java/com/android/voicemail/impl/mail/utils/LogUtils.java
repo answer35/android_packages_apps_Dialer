@@ -14,10 +14,13 @@
 package com.android.voicemail.impl.mail.utils;
 
 import android.net.Uri;
-import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.util.Log;
+
+import androidx.annotation.VisibleForTesting;
+
 import com.android.voicemail.impl.VvmLog;
+
 import java.util.List;
 
 public class LogUtils {

@@ -22,11 +22,14 @@ import android.bluetooth.BluetoothDevice;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Looper;
-import android.support.annotation.MainThread;
-import android.support.annotation.VisibleForTesting;
 import android.telecom.InCallService;
+
+import androidx.annotation.MainThread;
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;
+
 import java.util.List;
 
 /** Wrapper around Telecom APIs. */

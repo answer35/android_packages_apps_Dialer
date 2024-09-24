@@ -18,10 +18,13 @@ package com.android.incallui.ringtone;
 
 import android.media.AudioManager;
 import android.media.ToneGenerator;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 import com.android.incallui.Log;
 import com.android.incallui.async.PausableExecutor;
+
 import java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

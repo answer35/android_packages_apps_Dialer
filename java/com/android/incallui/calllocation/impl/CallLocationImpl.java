@@ -17,11 +17,14 @@
 package com.android.incallui.calllocation.impl;
 
 import android.content.Context;
-import android.support.annotation.MainThread;
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+
+import androidx.annotation.MainThread;
+import androidx.annotation.NonNull;
+
 import com.android.dialer.common.Assert;
 import com.android.incallui.calllocation.CallLocation;
+
 import javax.inject.Inject;
 
 /** Uses Google Play Services to show the user's location during an emergency call. */

@@ -22,8 +22,11 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
-import android.support.annotation.VisibleForTesting;
+
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.LogUtil;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

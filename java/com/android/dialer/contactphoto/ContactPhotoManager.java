@@ -23,11 +23,13 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.net.Uri.Builder;
-import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.QuickContactBadge;
+
+import androidx.annotation.VisibleForTesting;
+
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.lettertile.LetterTileDrawable;
 import com.android.dialer.util.PermissionsUtil;

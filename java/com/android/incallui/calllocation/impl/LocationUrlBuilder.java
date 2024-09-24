@@ -21,8 +21,10 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.location.Location;
 import android.net.Uri;
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
+
 import java.util.Locale;
 
 class LocationUrlBuilder {

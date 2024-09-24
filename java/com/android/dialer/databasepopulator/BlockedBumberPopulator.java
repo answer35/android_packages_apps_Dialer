@@ -23,8 +23,11 @@ import android.content.OperationApplicationException;
 import android.os.RemoteException;
 import android.provider.BlockedNumberContract;
 import android.provider.BlockedNumberContract.BlockedNumbers;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
+
 import com.android.dialer.common.Assert;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
