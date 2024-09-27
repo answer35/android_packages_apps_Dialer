@@ -19,7 +19,7 @@ package com.android.dialer.app.list;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import androidx.annotation.IntDef;
-import android.support.v13.app.FragmentPagerAdapter;
+import androidx.legacy.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 import com.android.dialer.app.calllog.CallLogFragment;
 import com.android.dialer.app.calllog.VisualVoicemailCallLogFragment;

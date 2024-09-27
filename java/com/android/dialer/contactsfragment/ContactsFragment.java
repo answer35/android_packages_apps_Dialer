@@ -30,7 +30,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import android.support.v13.app.FragmentCompat;
+import androidx.legacy.app.FragmentCompat;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;

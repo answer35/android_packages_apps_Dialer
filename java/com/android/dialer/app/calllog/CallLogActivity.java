@@ -24,9 +24,10 @@ import android.provider.CallLog.Calls;
 import androidx.annotation.VisibleForTesting;
 
 import com.google.android.material.snackbar.Snackbar;
-import android.support.v13.app.FragmentPagerAdapter;
+import androidx.legacy.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import androidx.appcompat.app.ActionBar;
+
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
