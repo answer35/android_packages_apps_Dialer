@@ -18,7 +18,7 @@ package com.android.contacts.common.compat;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.Icon;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccount;
 
 /** Compatiblity class for {@link android.telecom.PhoneAccount} */

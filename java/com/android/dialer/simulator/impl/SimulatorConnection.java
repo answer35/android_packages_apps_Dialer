@@ -18,7 +18,7 @@ package com.android.dialer.simulator.impl;
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.os.BuildCompat;
 import android.telecom.Connection;
 import android.telecom.Connection.RttTextStream;

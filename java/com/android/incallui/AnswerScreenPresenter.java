@@ -18,8 +18,8 @@ package com.android.incallui;
 
 import android.content.Context;
 import android.os.SystemClock;
-import android.support.annotation.FloatRange;
-import android.support.annotation.NonNull;
+import androidx.annotation.FloatRange;
+import androidx.annotation.NonNull;
 import android.support.v4.os.UserManagerCompat;
 import android.telecom.VideoProfile;
 import com.android.dialer.common.Assert;

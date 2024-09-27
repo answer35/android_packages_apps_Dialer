@@ -17,7 +17,7 @@
 package com.android.voicemail.impl.protocol;
 
 import android.content.res.Resources;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telephony.TelephonyManager;
 import com.android.voicemail.VisualVoicemailTypeExtensions;
 import com.android.voicemail.impl.VvmLog;

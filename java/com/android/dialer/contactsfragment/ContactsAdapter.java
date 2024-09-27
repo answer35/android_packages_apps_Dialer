@@ -20,7 +20,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.ContactsContract.Contacts;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.support.v4.util.ArrayMap;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

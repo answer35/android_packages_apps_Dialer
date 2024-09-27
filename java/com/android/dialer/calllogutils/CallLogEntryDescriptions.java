@@ -18,7 +18,7 @@ package com.android.dialer.calllogutils;
 
 import android.content.Context;
 import android.provider.CallLog.Calls;
-import android.support.annotation.PluralsRes;
+import androidx.annotation.PluralsRes;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;

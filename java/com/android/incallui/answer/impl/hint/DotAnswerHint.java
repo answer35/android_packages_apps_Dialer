@@ -21,7 +21,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Context;
-import android.support.annotation.DimenRes;
+import androidx.annotation.DimenRes;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.util.TypedValue;
 import android.view.LayoutInflater;

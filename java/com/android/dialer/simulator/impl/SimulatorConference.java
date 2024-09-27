@@ -16,7 +16,7 @@
 
 package com.android.dialer.simulator.impl;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.CallAudioState;
 import android.telecom.Conference;
 import android.telecom.Connection;

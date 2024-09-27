@@ -17,7 +17,7 @@
 package com.android.dialer.widget;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 import com.android.dialer.common.Assert;

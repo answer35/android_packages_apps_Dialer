@@ -18,7 +18,7 @@ package com.android.voicemail.impl.protocol;
 
 import android.content.Context;
 import android.provider.VoicemailContract.Status;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.telecom.PhoneAccountHandle;
 import com.android.voicemail.VoicemailComponent;
 import com.android.voicemail.impl.DefaultOmtpEventHandler;

@@ -16,8 +16,8 @@
 
 package com.android.incallui.video.impl;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 import android.view.View.OnClickListener;
 import com.android.dialer.common.Assert;

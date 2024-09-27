@@ -19,7 +19,7 @@ package com.android.incallui.disconnectdialog;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.DisconnectCause;
 import android.telecom.PhoneAccountHandle;
 import android.util.Pair;

@@ -18,7 +18,7 @@ package com.android.dialer.commandline.impl;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.TelecomManager;
 import com.android.dialer.buildtype.BuildType;
 import com.android.dialer.buildtype.BuildType.Type;

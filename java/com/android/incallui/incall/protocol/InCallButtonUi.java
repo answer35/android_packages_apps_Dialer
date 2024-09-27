@@ -16,7 +16,7 @@
 
 package com.android.incallui.incall.protocol;
 
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 import android.support.v4.app.Fragment;
 import android.telecom.CallAudioState;
 

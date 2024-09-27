@@ -17,7 +17,7 @@
 package com.android.dialer.voicemail.listui.error;
 
 import android.content.Context;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.ImageView;

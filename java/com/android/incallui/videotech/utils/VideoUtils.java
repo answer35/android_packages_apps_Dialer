@@ -18,7 +18,7 @@ package com.android.incallui.videotech.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import com.android.dialer.util.PermissionsUtil;
 

@@ -19,7 +19,7 @@ package com.android.voicemail.impl.sync;
 import android.annotation.TargetApi;
 import android.net.Network;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.PhoneAccountHandle;
 import com.android.voicemail.impl.OmtpVvmCarrierConfigHelper;
 import com.android.voicemail.impl.VoicemailStatus;

@@ -22,7 +22,7 @@ import android.graphics.Paint;
 import android.os.PowerManager;
 import android.provider.Settings;
 import android.provider.Settings.Global;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.TypedValue;
 import android.view.View;

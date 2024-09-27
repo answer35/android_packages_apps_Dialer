@@ -18,8 +18,8 @@ package com.android.voicemail.impl.mail.store.imap;
 
 import android.annotation.TargetApi;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 import android.util.ArrayMap;
 import android.util.Base64;
 import com.android.voicemail.impl.VvmLog;

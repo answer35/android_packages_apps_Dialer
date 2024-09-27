@@ -31,9 +31,9 @@ import android.view.WindowManager;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.ColorInt;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.graphics.drawable.GradientDrawable;
 import android.animation.ValueAnimator;
 import android.support.v4.app.Fragment;
@@ -86,7 +86,7 @@ import com.android.incallui.incall.protocol.PrimaryInfo;
 import com.android.incallui.incall.protocol.SecondaryInfo;
 import java.util.ArrayList;
 import java.util.List;
-import android.view.WindowManager;
+
 import com.android.incallui.incall.protocol.ContactPhotoType;
 
 /** Fragment that shows UI for an ongoing voice call. */

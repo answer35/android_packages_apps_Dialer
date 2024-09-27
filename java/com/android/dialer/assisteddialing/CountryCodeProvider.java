@@ -16,7 +16,7 @@
 
 package com.android.dialer.assisteddialing;
 
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import com.android.dialer.common.LogUtil;

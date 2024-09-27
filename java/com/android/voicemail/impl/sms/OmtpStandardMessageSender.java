@@ -17,7 +17,7 @@ package com.android.voicemail.impl.sms;
 
 import android.app.PendingIntent;
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;
 import com.android.voicemail.impl.OmtpConstants;

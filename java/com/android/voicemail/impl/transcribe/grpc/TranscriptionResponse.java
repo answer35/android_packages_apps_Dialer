@@ -15,7 +15,7 @@
  */
 package com.android.voicemail.impl.transcribe.grpc;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.android.dialer.common.Assert;
 import io.grpc.Status;
 import io.grpc.Status.Code;
