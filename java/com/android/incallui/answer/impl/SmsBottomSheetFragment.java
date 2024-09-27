@@ -23,7 +23,7 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import android.support.design.widget.BottomSheetDialogFragment;
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -37,6 +37,7 @@ import com.android.dialer.common.DpUtil;
 import com.android.dialer.common.FragmentUtils;
 import com.android.dialer.common.LogUtil;
 import com.android.incallui.incalluilock.InCallUiLock;
+
 import java.util.ArrayList;
 import java.util.List;
 

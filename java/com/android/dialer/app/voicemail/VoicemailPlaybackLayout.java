@@ -21,7 +21,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Handler;
 import androidx.annotation.VisibleForTesting;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;

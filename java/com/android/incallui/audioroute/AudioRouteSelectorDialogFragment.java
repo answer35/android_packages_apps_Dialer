@@ -26,7 +26,7 @@ import android.graphics.PorterDuff.Mode;
 import android.os.Bundle;
 import android.provider.Settings;
 import androidx.annotation.Nullable;
-import android.support.design.widget.BottomSheetDialogFragment;
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import android.support.v4.os.BuildCompat;
 import android.telecom.CallAudioState;
 import android.view.LayoutInflater;
@@ -43,6 +43,7 @@ import com.android.dialer.theme.base.ThemeComponent;
 import com.android.incallui.call.CallList;
 import com.android.incallui.call.DialerCall;
 import com.android.incallui.call.TelecomAdapter;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Collection;

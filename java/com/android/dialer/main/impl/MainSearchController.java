@@ -24,7 +24,7 @@ import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import android.support.design.widget.FloatingActionButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.MenuItem;

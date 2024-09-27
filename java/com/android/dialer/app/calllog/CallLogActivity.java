@@ -22,7 +22,7 @@ import android.os.Bundle;
 import android.provider.CallLog;
 import android.provider.CallLog.Calls;
 import androidx.annotation.VisibleForTesting;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;

@@ -23,7 +23,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface.OnDismissListener;
 import android.graphics.drawable.Icon;
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.os.BuildCompat;
 import android.view.View;
