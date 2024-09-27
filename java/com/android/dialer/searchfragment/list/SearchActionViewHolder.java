@@ -21,7 +21,7 @@ import android.content.Intent;
 import androidx.annotation.IntDef;
 import androidx.annotation.StringRes;
 import androidx.annotation.VisibleForTesting;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;

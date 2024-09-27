@@ -23,12 +23,16 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.ActionBar;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.android.dialer.app.R;
 import com.android.dialer.blocking.BlockedNumbersMigrator;
 import com.android.dialer.blocking.BlockedNumbersMigrator.Listener;

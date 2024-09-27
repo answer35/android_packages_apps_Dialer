@@ -31,10 +31,11 @@ import android.os.Bundle;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import android.support.v13.app.FragmentCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.Recycler;
-import android.support.v7.widget.RecyclerView.State;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.Recycler;
+import androidx.recyclerview.widget.RecyclerView.State;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnScrollChangeListener;

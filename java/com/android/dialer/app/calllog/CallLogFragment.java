@@ -18,7 +18,7 @@ package com.android.dialer.app.calllog;
 
 import static android.Manifest.permission.READ_CALL_LOG;
 
-import android.support.v7.widget.helper.ItemTouchHelper;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import android.util.Log;
 
 import android.app.Activity;
@@ -41,9 +41,10 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.Nullable;
 import android.support.v13.app.FragmentCompat;
 import android.support.v13.app.FragmentCompat.OnRequestPermissionsResultCallback;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;

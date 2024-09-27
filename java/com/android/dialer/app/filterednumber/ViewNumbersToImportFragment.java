@@ -23,11 +23,12 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.android.dialer.app.R;
 import com.android.dialer.blocking.FilteredNumbersUtil;
 import com.android.dialer.blocking.FilteredNumbersUtil.ImportSendToVoicemailContactsListener;

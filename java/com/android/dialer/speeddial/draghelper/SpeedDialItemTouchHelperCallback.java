@@ -20,9 +20,9 @@ import android.content.Context;
 import android.graphics.Canvas;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
-import android.support.v7.widget.helper.ItemTouchHelper;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import com.android.dialer.logging.DialerImpression;
 import com.android.dialer.logging.Logger;
 
@@ -57,7 +57,7 @@ public class SpeedDialItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
   @Override
   public boolean canDropOver(
-      @NonNull RecyclerView recyclerView, @NonNull ViewHolder current, @NonNull ViewHolder target) {
+          @NonNull RecyclerView recyclerView, @NonNull ViewHolder current, @NonNull ViewHolder target) {
     return adapter.canDropOver(target);
   }
 

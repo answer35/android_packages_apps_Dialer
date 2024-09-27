@@ -17,8 +17,9 @@
 package com.android.incallui;
 
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuItem;
 
 /** Shows the {@link ConferenceManagerFragment} */

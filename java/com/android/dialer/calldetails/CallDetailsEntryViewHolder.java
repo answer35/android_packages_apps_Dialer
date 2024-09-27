@@ -28,7 +28,7 @@ import androidx.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v4.os.BuildCompat;
-import android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.view.Menu;

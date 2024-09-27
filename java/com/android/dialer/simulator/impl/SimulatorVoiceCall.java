@@ -20,7 +20,8 @@ import android.content.Context;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.telecom.Connection;
 import android.telecom.Connection.RttModifyStatus;
 import android.telecom.DisconnectCause;

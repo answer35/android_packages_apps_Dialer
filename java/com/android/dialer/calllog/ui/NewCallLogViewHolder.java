@@ -20,7 +20,7 @@ import android.content.res.ColorStateList;
 import android.provider.CallLog.Calls;
 import androidx.annotation.ColorInt;
 import androidx.annotation.DrawableRes;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.telecom.PhoneAccount;
 import android.telecom.PhoneAccountHandle;
 import android.text.TextUtils;

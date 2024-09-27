@@ -16,7 +16,7 @@
 package com.android.dialer.calllog.ui;
 
 import androidx.annotation.StringRes;
-import android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.View;
 import android.widget.TextView;
 

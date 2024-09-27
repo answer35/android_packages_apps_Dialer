@@ -17,7 +17,7 @@
 package com.android.dialer.enrichedcall.simulator;
 
 import androidx.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.android.dialer.common.Assert;

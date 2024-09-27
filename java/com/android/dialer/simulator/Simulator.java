@@ -19,7 +19,7 @@ package com.android.dialer.simulator;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringDef;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.ActionProvider;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

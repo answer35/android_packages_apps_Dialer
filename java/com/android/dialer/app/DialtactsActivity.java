@@ -35,13 +35,13 @@ import android.provider.ContactsContract.QuickContact;
 import android.speech.RecognizerIntent;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
+import androidx.appcompat.app.ActionBar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton.OnVisibilityChangedListener;
 
 import androidx.core.app.ActivityCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
 import android.telecom.PhoneAccount;
 import android.text.Editable;
 import android.text.TextUtils;

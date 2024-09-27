@@ -26,9 +26,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.provider.CallLog;
 import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.LinearLayoutManager;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
 import android.telecom.PhoneAccountHandle;
 import android.text.format.DateUtils;
 import android.util.Log;
@@ -51,6 +50,9 @@ import com.android.dialer.widget.EmptyContentView;
 import java.util.Map;
 
 import static android.Manifest.permission.READ_CALL_LOG;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class CallStatsFragment extends Fragment implements
     CallStatsQueryHandler.Listener, FilterSpinnerHelper.OnFilterChangedListener,

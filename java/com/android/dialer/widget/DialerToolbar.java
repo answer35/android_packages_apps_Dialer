@@ -20,7 +20,7 @@ import android.app.Activity;
 import android.content.Context;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.util.AttributeSet;
 import android.widget.TextView;
 import com.android.dialer.theme.base.ThemeComponent;

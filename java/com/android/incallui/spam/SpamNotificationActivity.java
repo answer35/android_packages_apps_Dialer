@@ -26,7 +26,7 @@ import android.provider.CallLog;
 import android.provider.ContactsContract;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.telephony.PhoneNumberUtils;
 import com.android.dialer.blocking.BlockedNumbersMigrator;
 import com.android.dialer.blocking.FilteredNumberAsyncQueryHandler;

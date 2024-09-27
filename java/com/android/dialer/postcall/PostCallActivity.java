@@ -25,7 +25,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;
