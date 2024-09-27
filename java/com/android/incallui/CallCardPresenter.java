@@ -31,7 +31,7 @@ import android.os.Handler;
 import android.os.Trace;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.telecom.Call.Details;
 import android.telecom.StatusHints;

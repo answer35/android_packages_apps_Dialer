@@ -18,7 +18,7 @@ package com.android.dialer.widget;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextUtils;

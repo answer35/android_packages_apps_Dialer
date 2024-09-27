@@ -18,7 +18,7 @@ package com.android.dialer.callcomposer;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.FragmentUtils;
 import com.android.dialer.common.LogUtil;

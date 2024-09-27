@@ -18,7 +18,8 @@ package com.android.incallui.maps.impl;
 
 import android.location.Location;
 import androidx.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
+
 import com.android.incallui.maps.Maps;
 import javax.inject.Inject;
 

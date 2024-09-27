@@ -28,7 +28,7 @@ import android.os.Parcelable;
 import android.provider.Settings;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.support.v4.app.LoaderManager.LoaderCallbacks;
+import androidx.loader.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.view.LayoutInflater;

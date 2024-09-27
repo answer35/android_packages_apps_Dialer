@@ -20,7 +20,7 @@ import androidx.annotation.CheckResult;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import com.android.dialer.main.MainActivityPeer;
 
 /** Utility methods for working with Fragments */

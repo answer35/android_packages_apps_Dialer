@@ -19,7 +19,7 @@ package com.android.incallui.answer.impl.answermethod;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import androidx.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import com.android.dialer.common.FragmentUtils;
 
 /** A fragment that can be used to answer/reject calls. */

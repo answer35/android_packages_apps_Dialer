@@ -18,7 +18,8 @@ package com.android.incallui.speakeasy;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
+
 import com.android.incallui.call.DialerCall;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.Optional;

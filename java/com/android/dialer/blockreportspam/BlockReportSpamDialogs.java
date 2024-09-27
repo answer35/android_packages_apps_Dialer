@@ -22,7 +22,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import android.support.v4.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
+
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.CheckBox;
@@ -50,7 +51,7 @@ public final class BlockReportSpamDialogs {
    * listener.
    */
   private static DialogInterface.OnClickListener createGenericOnClickListener(
-      final DialogFragment fragment, final OnConfirmListener listener) {
+          final DialogFragment fragment, final OnConfirmListener listener) {
     return (dialog, which) -> {
       fragment.dismiss();
       listener.onClick();

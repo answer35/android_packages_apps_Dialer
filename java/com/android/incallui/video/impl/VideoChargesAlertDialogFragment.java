@@ -24,7 +24,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
-import android.support.v4.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
+
 import android.support.v4.os.UserManagerCompat;
 import android.telecom.Call.Details;
 import android.view.View;

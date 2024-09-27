@@ -42,7 +42,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.annotation.VisibleForTesting;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.graphics.Color;
 import android.text.TextUtils;
 import android.transition.TransitionManager;

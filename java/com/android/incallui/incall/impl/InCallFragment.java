@@ -34,10 +34,11 @@ import android.os.Handler;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
 import android.graphics.drawable.GradientDrawable;
 import android.animation.ValueAnimator;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import com.android.incallui.call.state.DialerCallState;
 import android.support.v4.view.animation.LinearOutSlowInInterpolator;

@@ -24,7 +24,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.annotation.WorkerThread;
-import android.support.v4.app.JobIntentService;
+import androidx.core.app.JobIntentService;
 import android.support.v4.os.BuildCompat;
 import android.telecom.PhoneAccountHandle;
 import com.android.dialer.common.LogUtil;

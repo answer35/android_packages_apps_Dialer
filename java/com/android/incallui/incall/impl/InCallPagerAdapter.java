@@ -17,9 +17,9 @@
 package com.android.incallui.incall.impl;
 
 import androidx.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import com.android.dialer.common.Assert;
 import com.android.dialer.multimedia.MultimediaData;
