@@ -16,8 +16,8 @@
 
 package com.android.dialer.commandline.impl;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.NonNull;
+import androidx.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import com.android.dialer.commandline.Arguments;
 import com.android.dialer.commandline.Command;

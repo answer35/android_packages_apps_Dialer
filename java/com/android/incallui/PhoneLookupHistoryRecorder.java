@@ -17,7 +17,7 @@ package com.android.incallui;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.Call;
 import com.android.dialer.calllog.config.CallLogConfigComponent;
 import com.android.dialer.common.Assert;

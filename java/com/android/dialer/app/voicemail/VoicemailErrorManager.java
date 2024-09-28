@@ -20,7 +20,7 @@ import android.content.Context;
 import android.database.ContentObserver;
 import android.database.Cursor;
 import android.os.Handler;
-import android.support.annotation.MainThread;
+import androidx.annotation.MainThread;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;

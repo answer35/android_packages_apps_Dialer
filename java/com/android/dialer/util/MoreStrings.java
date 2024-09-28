@@ -16,7 +16,7 @@
 
 package com.android.dialer.util;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
 /** Static utility methods for Strings. */

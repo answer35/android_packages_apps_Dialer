@@ -17,9 +17,9 @@
 package com.android.incallui.incall.protocol;
 
 import android.graphics.drawable.Drawable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
-import android.support.annotation.Nullable;
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.annotation.Nullable;
 import android.telecom.DisconnectCause;
 import android.text.TextUtils;
 import com.android.dialer.assisteddialing.TransformationInfo;

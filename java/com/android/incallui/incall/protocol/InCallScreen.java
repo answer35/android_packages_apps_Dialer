@@ -16,7 +16,7 @@
 
 package com.android.incallui.incall.protocol;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.accessibility.AccessibilityEvent;
 

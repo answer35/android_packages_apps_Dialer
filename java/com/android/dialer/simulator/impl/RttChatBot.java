@@ -20,7 +20,7 @@ import android.annotation.TargetApi;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Looper;
-import android.support.annotation.MainThread;
+import androidx.annotation.MainThread;
 import android.telecom.Connection.RttTextStream;
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;

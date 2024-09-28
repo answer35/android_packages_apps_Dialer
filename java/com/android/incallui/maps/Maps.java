@@ -17,7 +17,7 @@
 package com.android.incallui.maps;
 
 import android.location.Location;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.app.Fragment;
 
 /** Used to create a fragment that can display a static map at the given location. */

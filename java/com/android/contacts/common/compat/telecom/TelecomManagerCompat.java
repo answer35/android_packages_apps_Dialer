@@ -17,7 +17,7 @@ package com.android.contacts.common.compat.telecom;
 
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.TelecomManager;
 import java.lang.reflect.Field;

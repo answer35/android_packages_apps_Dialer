@@ -17,8 +17,8 @@
 package com.android.dialer.simulator.impl;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.telecom.Connection;
 import android.telecom.DisconnectCause;
 import com.android.dialer.common.Assert;

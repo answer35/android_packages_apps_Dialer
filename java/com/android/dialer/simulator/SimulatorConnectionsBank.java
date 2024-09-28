@@ -17,7 +17,7 @@
 package com.android.dialer.simulator;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.Connection;
 import com.android.dialer.simulator.Simulator.ConferenceType;
 import java.util.List;

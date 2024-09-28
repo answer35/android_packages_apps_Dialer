@@ -16,8 +16,8 @@
 
 package com.android.dialer.voicemail.listui;
 
-import android.support.annotation.StringRes;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.StringRes;
+import androidx.annotation.VisibleForTesting;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.View;
 import android.widget.TextView;

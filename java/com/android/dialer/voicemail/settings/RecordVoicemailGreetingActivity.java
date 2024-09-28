@@ -18,7 +18,7 @@ package com.android.dialer.voicemail.settings;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;

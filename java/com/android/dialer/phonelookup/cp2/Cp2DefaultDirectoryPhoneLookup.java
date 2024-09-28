@@ -25,7 +25,7 @@ import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.provider.ContactsContract.Contacts;
 import android.provider.ContactsContract.DeletedContacts;
 import android.provider.ContactsContract.Directory;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.support.v4.util.ArrayMap;
 import android.support.v4.util.ArraySet;
 import android.text.TextUtils;

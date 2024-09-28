@@ -19,7 +19,7 @@ package com.android.voicemail.impl.protocol;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import com.android.voicemail.impl.ActivationTask;
 import com.android.voicemail.impl.DefaultOmtpEventHandler;

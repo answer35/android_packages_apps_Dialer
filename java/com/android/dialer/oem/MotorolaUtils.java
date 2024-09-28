@@ -18,7 +18,7 @@ package com.android.dialer.oem;
 import android.content.Context;
 import android.content.res.Resources;
 import android.provider.CallLog.Calls;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import android.telephony.TelephonyManager;
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.common.PackageUtils;

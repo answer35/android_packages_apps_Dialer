@@ -18,7 +18,7 @@ package com.android.incallui;
 
 import android.content.Context;
 import android.content.pm.ActivityInfo;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.view.OrientationEventListener;
 import com.android.dialer.common.LogUtil;
 import java.lang.annotation.Retention;

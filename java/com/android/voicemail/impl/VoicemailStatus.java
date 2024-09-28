@@ -22,7 +22,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.provider.VoicemailContract;
 import android.provider.VoicemailContract.Status;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import com.android.dialer.strictmode.StrictModeUtils;
 

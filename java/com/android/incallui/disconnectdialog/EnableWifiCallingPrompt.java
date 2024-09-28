@@ -21,7 +21,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.DisconnectCause;
 import android.util.Pair;
 import com.android.dialer.common.Assert;

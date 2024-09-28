@@ -16,7 +16,7 @@
 
 package com.android.dialer.enrichedcall;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.android.incallui.videotech.VideoTech;
 import com.android.incallui.videotech.VideoTech.VideoTechListener;
 

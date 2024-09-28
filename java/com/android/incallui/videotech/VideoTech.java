@@ -17,8 +17,8 @@
 package com.android.incallui.videotech;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.telecom.PhoneAccountHandle;
 import com.android.dialer.logging.DialerImpression;
 import com.android.incallui.video.protocol.VideoCallScreen;

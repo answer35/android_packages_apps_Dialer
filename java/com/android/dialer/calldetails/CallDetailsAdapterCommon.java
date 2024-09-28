@@ -17,8 +17,8 @@
 package com.android.dialer.calldetails;
 
 import android.content.Context;
-import android.support.annotation.CallSuper;
-import android.support.annotation.MainThread;
+import androidx.annotation.CallSuper;
+import androidx.annotation.MainThread;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;

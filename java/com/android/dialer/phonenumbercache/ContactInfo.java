@@ -17,7 +17,7 @@
 package com.android.dialer.phonenumbercache;
 
 import android.net.Uri;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import com.android.contacts.common.ContactsUtils.UserType;
 import com.android.dialer.logging.ContactSource;

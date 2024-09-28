@@ -17,7 +17,7 @@
 package com.android.incallui.maps.stub;
 
 import android.location.Location;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import com.android.dialer.common.Assert;
 import com.android.incallui.maps.Maps;

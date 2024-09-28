@@ -16,9 +16,9 @@
 
 package com.android.incallui.video.impl;
 
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
 import android.telecom.CallAudioState;
 import android.view.View;
 import android.view.View.OnClickListener;

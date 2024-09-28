@@ -20,7 +20,7 @@ import android.content.Context;
 import android.provider.CallLog;
 import android.provider.CallLog.Calls;
 import android.provider.VoicemailContract.Voicemails;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import android.telecom.PhoneAccountHandle;
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;
