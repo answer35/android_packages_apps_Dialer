@@ -15,60 +15,11 @@ include $(CLEAR_VARS)
 # The base directory for Dialer sources.
 BASE_DIR := java/com/android
 
-# Exclude files incompatible with AOSP.
-EXCLUDE_FILES := \
-	$(BASE_DIR)/incallui/calllocation/impl/AuthException.java \
-	$(BASE_DIR)/incallui/calllocation/impl/CallLocationImpl.java \
-	$(BASE_DIR)/incallui/calllocation/impl/CallLocationModule.java \
-	$(BASE_DIR)/incallui/calllocation/impl/DownloadMapImageTask.java \
-	$(BASE_DIR)/incallui/calllocation/impl/GoogleLocationSettingHelper.java \
-	$(BASE_DIR)/incallui/calllocation/impl/HttpFetcher.java \
-	$(BASE_DIR)/incallui/calllocation/impl/LocationFragment.java \
-	$(BASE_DIR)/incallui/calllocation/impl/LocationHelper.java \
-	$(BASE_DIR)/incallui/calllocation/impl/LocationPresenter.java \
-	$(BASE_DIR)/incallui/calllocation/impl/LocationUrlBuilder.java \
-	$(BASE_DIR)/incallui/calllocation/impl/ReverseGeocodeTask.java \
-	$(BASE_DIR)/incallui/calllocation/impl/TrafficStatsTags.java \
-	$(BASE_DIR)/incallui/maps/impl/MapsImpl.java \
-	$(BASE_DIR)/incallui/maps/impl/MapsModule.java \
-	$(BASE_DIR)/incallui/maps/impl/StaticMapFragment.java \
-
-# Exclude testing only class, not used anywhere here
-EXCLUDE_FILES += \
-	$(BASE_DIR)/contacts/common/format/testing/SpannedTestUtils.java
-
-# Exclude rootcomponentgenerator
-EXCLUDE_FILES += \
-	$(call all-java-files-under, $(BASE_DIR)/dialer/rootcomponentgenerator) \
-	$(call all-java-files-under, $(BASE_DIR)/dialer/inject/demo)
-
-# Exclude build variants for now
-EXCLUDE_FILES += \
-	$(BASE_DIR)/dialer/constants/googledialer/ConstantsImpl.java \
-	$(BASE_DIR)/dialer/binary/google/GoogleStubDialerRootComponent.java \
-	$(BASE_DIR)/dialer/binary/google/GoogleStubDialerApplication.java \
-
-# * b/62875795
-ifneq ($(wildcard packages/apps/Dialer/java/com/android/voicemail/impl/com/google/internal/communications/voicemailtranscription/v1/VoicemailTranscriptionServiceGrpc.java),)
-$(error Please remove file packages/apps/Dialer/java/com/android/voicemail/impl/com/google/internal/communications/voicemailtranscription/v1/VoicemailTranscriptionServiceGrpc.java )
-endif
-
-EXCLUDE_RESOURCE_DIRECTORIES := \
-	java/com/android/incallui/maps/impl/res \
-
 # All Dialers resources.
 RES_DIRS := $(call all-subdir-named-dirs,res,.)
-RES_DIRS := $(filter-out $(EXCLUDE_RESOURCE_DIRECTORIES),$(RES_DIRS))
-
-EXCLUDE_MANIFESTS := \
-	$(BASE_DIR)/dialer/binary/aosp/testing/AndroidManifest.xml \
-	$(BASE_DIR)/dialer/binary/google/AndroidManifest.xml \
-	$(BASE_DIR)/incallui/calllocation/impl/AndroidManifest.xml \
-	$(BASE_DIR)/incallui/maps/impl/AndroidManifest.xml \
 
 # Dialer manifest files to merge.
 DIALER_MANIFEST_FILES := $(call all-named-files-under,AndroidManifest.xml,.)
-DIALER_MANIFEST_FILES := $(filter-out $(EXCLUDE_MANIFESTS),$(DIALER_MANIFEST_FILES))
 
 # Merge all manifest files.
 LOCAL_FULL_LIBS_MANIFEST_FILES := \
@@ -77,7 +28,6 @@ LOCAL_FULL_LIBS_MANIFEST_FILES := \
 LOCAL_SRC_FILES := $(call all-java-files-under, $(BASE_DIR))
 LOCAL_SRC_FILES += $(call all-proto-files-under, $(BASE_DIR))
 LOCAL_SRC_FILES += $(call all-Iaidl-files-under, $(BASE_DIR))
-LOCAL_SRC_FILES := $(filter-out $(EXCLUDE_FILES),$(LOCAL_SRC_FILES))
 
 LOCAL_AIDL_INCLUDES := $(LOCAL_PATH)/java
 
@@ -85,16 +35,9 @@ LOCAL_PROTOC_FLAGS := --proto_path=$(LOCAL_PATH)
 
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(RES_DIRS))
 
-EXCLUDE_EXTRA_PACKAGES := \
-	com.android.dialer.binary.aosp.testing \
-	com.android.dialer.binary.google \
-	com.android.incallui.calllocation.impl \
-	com.android.incallui.maps.impl \
-
 # We specify each package explicitly to glob resource files.
 include ${LOCAL_PATH}/packages.mk
 
-LOCAL_AAPT_FLAGS := $(filter-out $(EXCLUDE_EXTRA_PACKAGES),$(LOCAL_AAPT_FLAGS))
 LOCAL_AAPT_FLAGS := $(addprefix --extra-packages , $(LOCAL_AAPT_FLAGS))
 LOCAL_AAPT_FLAGS += \
 	--auto-add-overlay \
@@ -132,7 +75,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	jsr305 \
 	libbackup \
 	libphonenumber \
-	volley
+	volley \
+        androidx.annotation_annotation \
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
 	android-support-core-ui \
@@ -162,7 +106,7 @@ LOCAL_ANNOTATION_PROCESSORS := \
 	dialer-rootcomponentprocessor
 
 LOCAL_ANNOTATION_PROCESSOR_CLASSES := \
-  com.google.auto.value.processor.AutoValueProcessor,dagger.internal.codegen.ComponentProcessor,com.bumptech.glide.annotation.compiler.GlideAnnotationProcessor,com.android.dialer.rootcomponentgenerator.RootComponentProcessor
+  com.google.auto.value.processor.AutoValueProcessor,dagger.internal.codegen.ComponentProcessor,com.bumptech.glide.annotation.compiler.GlideAnnotationProcessor
 
 # Proguard includes
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags $(call all-named-files-under,proguard.*flags,$(BASE_DIR))
@@ -536,7 +480,6 @@ LOCAL_IS_HOST_MODULE := true
 BASE_DIR := java/com/android
 
 LOCAL_SRC_FILES := \
-	$(call all-java-files-under, $(BASE_DIR)/dialer/rootcomponentgenerator) \
         $(BASE_DIR)/dialer/inject/DialerRootComponent.java \
         $(BASE_DIR)/dialer/inject/DialerVariant.java \
         $(BASE_DIR)/dialer/inject/HasRootComponent.java \
