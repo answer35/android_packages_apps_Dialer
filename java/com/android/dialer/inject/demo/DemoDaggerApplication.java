@@ -17,7 +17,7 @@
 package com.android.dialer.inject.demo;
 
 import android.app.Application;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.android.dialer.inject.ContextModule;
 import com.android.dialer.inject.DialerRootComponent;
 import com.android.dialer.inject.DialerVariant;

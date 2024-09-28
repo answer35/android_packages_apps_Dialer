@@ -23,7 +23,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.provider.VoicemailContract;
 import android.provider.VoicemailContract.Voicemails;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.telecom.PhoneAccountHandle;
 import com.android.dialer.common.Assert;
 import com.android.voicemail.impl.Voicemail;

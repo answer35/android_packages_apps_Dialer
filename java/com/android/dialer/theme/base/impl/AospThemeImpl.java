@@ -18,8 +18,8 @@ package com.android.dialer.theme.base.impl;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.ColorInt;
-import android.support.annotation.StyleRes;
+import androidx.annotation.ColorInt;
+import androidx.annotation.StyleRes;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import com.android.dialer.common.Assert;

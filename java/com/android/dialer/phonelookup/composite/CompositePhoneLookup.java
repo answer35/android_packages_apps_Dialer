@@ -17,8 +17,8 @@
 package com.android.dialer.phonelookup.composite;
 
 import android.content.Context;
-import android.support.annotation.MainThread;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.MainThread;
+import androidx.annotation.VisibleForTesting;
 import android.telecom.Call;
 import com.android.dialer.DialerPhoneNumber;
 import com.android.dialer.calllog.CallLogState;

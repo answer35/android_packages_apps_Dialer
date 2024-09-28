@@ -15,7 +15,7 @@
  */
 package com.android.voicemail.impl.mail.internet;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import com.android.voicemail.impl.VvmLog;
 import com.android.voicemail.impl.mail.Address;

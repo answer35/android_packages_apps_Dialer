@@ -36,11 +36,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.provider.CallLog;
 import android.provider.CallLog.Calls;
 import android.provider.ContactsContract;
-import android.support.annotation.CallSuper;
-import android.support.annotation.Nullable;
+import androidx.annotation.CallSuper;
+import androidx.annotation.Nullable;
 import android.support.v13.app.FragmentCompat;
 import android.support.v13.app.FragmentCompat.OnRequestPermissionsResultCallback;
 import android.support.v7.app.AppCompatActivity;
@@ -78,7 +77,6 @@ import com.android.dialer.oem.CequintCallerIdManager;
 //import androidx.core.content.ContextCompat;
 import android.support.v4.content.ContextCompat;
 
-import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.text.TextPaint;
 

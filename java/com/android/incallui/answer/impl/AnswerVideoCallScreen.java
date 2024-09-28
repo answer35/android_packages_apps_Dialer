@@ -18,7 +18,7 @@ package com.android.incallui.answer.impl;
 
 import android.content.res.Configuration;
 import android.graphics.Point;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.TextureView;
 import android.view.View;

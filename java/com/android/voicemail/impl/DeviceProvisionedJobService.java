@@ -29,7 +29,7 @@ import android.content.Intent;
 import android.os.Build.VERSION_CODES;
 import android.provider.Settings;
 import android.provider.Settings.Global;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import android.telecom.PhoneAccountHandle;
 import com.android.dialer.constants.ScheduledJobIds;
 

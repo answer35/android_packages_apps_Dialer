@@ -16,7 +16,7 @@
 
 package com.android.incallui.incall.impl;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;

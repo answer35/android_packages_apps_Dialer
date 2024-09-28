@@ -20,7 +20,7 @@ import android.content.Context;
 import android.graphics.drawable.Animatable;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
+
 import com.android.incallui.call.state.DialerCallState;
 import java.util.Timer;
 import android.graphics.Bitmap;
@@ -31,7 +31,7 @@ import android.renderscript.Element;
 import android.renderscript.RenderScript;
 import android.renderscript.ScriptIntrinsicBlur;
 import android.os.SystemClock;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.support.v4.view.ViewCompat;
 import android.telephony.PhoneNumberUtils;
 import android.text.BidiFormatter;

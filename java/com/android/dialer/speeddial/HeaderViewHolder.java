@@ -16,7 +16,7 @@
 
 package com.android.dialer.speeddial;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.View.OnClickListener;

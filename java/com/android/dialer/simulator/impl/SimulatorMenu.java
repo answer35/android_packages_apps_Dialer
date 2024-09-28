@@ -17,7 +17,7 @@
 package com.android.dialer.simulator.impl;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.ActionProvider;
 import android.view.MenuItem;
 import android.view.SubMenu;

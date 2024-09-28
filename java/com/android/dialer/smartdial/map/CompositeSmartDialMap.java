@@ -17,7 +17,7 @@
 package com.android.dialer.smartdial.map;
 
 import android.content.Context;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import android.support.v4.util.SimpleArrayMap;
 import com.android.dialer.i18n.LocaleUtils;
 import com.google.common.base.Optional;

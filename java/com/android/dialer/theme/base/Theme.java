@@ -17,9 +17,9 @@
 package com.android.dialer.theme.base;
 
 import android.content.Context;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
-import android.support.annotation.StyleRes;
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.annotation.StyleRes;
 import android.view.LayoutInflater;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

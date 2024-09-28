@@ -27,7 +27,7 @@ import android.os.ConditionVariable;
 import android.os.Build.VERSION_CODES;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.CallSuper;
+import androidx.annotation.CallSuper;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.TelephonyManager;
 import com.android.dialer.common.Assert;

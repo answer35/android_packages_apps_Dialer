@@ -19,7 +19,7 @@ package com.android.incallui.autoresizetext;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.RectF;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.Layout.Alignment;
 import android.text.StaticLayout;
 import android.text.TextPaint;

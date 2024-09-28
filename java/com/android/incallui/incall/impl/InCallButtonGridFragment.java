@@ -17,8 +17,8 @@
 package com.android.incallui.incall.impl;
 
 import android.os.Bundle;
-import android.support.annotation.ColorInt;
-import android.support.annotation.Nullable;
+import androidx.annotation.ColorInt;
+import androidx.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.ArraySet;
 import android.view.LayoutInflater;

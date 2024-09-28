@@ -20,7 +20,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.FloatingActionButton.OnVisibilityChangedListener;
 import android.view.View;
