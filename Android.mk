@@ -132,17 +132,19 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	jsr305 \
 	libbackup \
 	libphonenumber \
-	volley
+	volley \
+	androidx.annotation_annotation \
+        com.google.android.material_material \
+        androidx.legacy_legacy-support-v4 \
+        androidx.appcompat_appcompat \
+        androidx.cardview_cardview \
+        androidx.recyclerview_recyclerview \
+        androidx.legacy_legacy-support-v13 \
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
 	android-support-core-ui \
 	$(ANDROID_SUPPORT_DESIGN_TARGETS) \
 	android-support-transition \
-	android-support-v13 \
-	android-support-v4 \
-	android-support-v7-appcompat \
-	android-support-v7-cardview \
-	android-support-v7-recyclerview \
 
 LOCAL_JAVA_LIBRARIES := \
 	auto_value_annotations \
